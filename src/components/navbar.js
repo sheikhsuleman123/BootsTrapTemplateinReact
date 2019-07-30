@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 export default class Navbar extends Component {
   render() {
     return (
-      
-      <nav className="navbar navbar-expand-md navbar-light bg-dark"> 
+      <div>
+      <nav className="navbar navbar-expand-md navbar-light bg-dark fixed-top"> 
         <a href="#" className="navbar-brand">
         <i className="fa fa-child text-warning fa-2x"> </i></a>
         <button type="button" className="navbar-toggler bg-light" data-toggle="collapse" data-target="#nav">
@@ -42,6 +42,8 @@ export default class Navbar extends Component {
 </div>
 
       </nav>
+      
+      </div>
     );
   }
 }
