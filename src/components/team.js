@@ -18,7 +18,7 @@ export default class Team extends Component {
                 </div>
            
                 <div className="row">
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-10 mx-auto mb-4">
                         <div className="card">
                             <img src={pic1} className="card-img-top" />
                             <div className="card-body">
@@ -39,7 +39,7 @@ export default class Team extends Component {
                         
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-10 mx-auto ">
                         <div className="card">
                             <img src={pic2} className="card-img-top" />
                             <div className="card-body">
@@ -60,7 +60,7 @@ export default class Team extends Component {
                         
                         </div>
                     </div>
-                    <div className="col-lg-4">
+                    <div className="col-lg-4 col-sm-10 mx-auto ">
                         <div className="card">
                             <img src={pic3} className="card-img-top" />
                             <div className="card-body">
