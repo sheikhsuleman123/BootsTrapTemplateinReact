@@ -7,6 +7,7 @@ import Skill from './components/skills';
 import Project from './components/project';
 import Team from './components/team';
 import ProgressBar from './components/progressBar';
+import Contact from './components/contact';
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
     <Project />
     <Team />
     <ProgressBar />
-
+    <Contact />
     </div>
   );
 }
