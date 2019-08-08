@@ -6,6 +6,7 @@ import Banner from './components/banner';
 import Skill from './components/skills';
 import Project from './components/project';
 import Team from './components/team';
+import ProgressBar from './components/progressBar';
 
 function App() {
   return (
@@ -17,6 +18,8 @@ function App() {
     <Skill />
     <Project />
     <Team />
+    <ProgressBar />
+
     </div>
   );
 }
