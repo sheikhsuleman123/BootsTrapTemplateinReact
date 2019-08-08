@@ -8,6 +8,7 @@ import Project from './components/project';
 import Team from './components/team';
 import ProgressBar from './components/progressBar';
 import Contact from './components/contact';
+import Footer from './components/footer';
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
     <Team />
     <ProgressBar />
     <Contact />
+    <Footer />
     </div>
   );
 }
